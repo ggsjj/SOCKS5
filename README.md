@@ -1,12 +1,13 @@
 wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh 
+#
 bash install.sh    这个要手工添加用户和密码
 或
+#
 bash install.sh  --port=端口 --user=自己设置用户名 --passwd=设置密码
-
 # 
 添加用户密码方法
  /etc/init.d/sockd adduser 用户 密码
-
+ /etc/init.d/sockd deluser 用户
 
 # Sockd
 **Dante socks5 server (v1.3.2) auto-install and management script** 
